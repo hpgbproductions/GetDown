@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="6abfb1bd-8552-4f4e-b73a-efd137a81065">
+  <Mod name="GetDown" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-02-16T06:36:21.3341125Z" apiVersion="1.0.0.0" description="tfw cartridge tilt">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Persistent Object" path="Assets/_ModAssets_/Persistent Object.prefab" />
+    </GameObjects>
+    <Assets />
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="GetDown-Assembly-CSharp.dll" path="Assets/_ModAssets_/GetDown-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="Persistent Object" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
